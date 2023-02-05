@@ -1,0 +1,25 @@
+$bg-element-dark: #2b3945 !default;
+$bg-dark: #202c37 !default;
+$color-text-light: #111517 !default;
+$color-input-light: #858585 !default;
+$bg-light: #fafafa !default;
+$color-text-dark: #ffffff !default;
+
+html[data-theme="light"] {
+    --color-text: #{$color-text-light};
+    --color-background: #{$bg-light};
+    --color-background-element: #{$color-text-dark};
+    --color-input: #{$color-input-light};
+}
+
+html[data-theme="dark"] {
+    --color-text: #{$color-text-dark};
+    --color-background: #{$bg-dark};
+    --color-background-element: #{$bg-element-dark};
+    --color-input: #{$color-input-light};
+}
+
+
+// Fonts
+$nunito-sans: 'Nunito Sans',
+sans-serif !default;
