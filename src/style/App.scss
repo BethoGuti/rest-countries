@@ -229,8 +229,9 @@ form {
         font-size: 1.2rem;
 
         .item-info {
+            width: 50%;
 
-            .img {
+            img {
                 width: 100%;
                 min-height: 400px;
                 max-height: 400px;
@@ -386,6 +387,7 @@ form {
     }
 
     .content-about {
+        padding: 10px;
 
         div.content-info {
 
